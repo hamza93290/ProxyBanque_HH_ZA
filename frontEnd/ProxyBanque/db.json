@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "clients":[
+    {
+      "id": 0,
+      "nom": "string",
+      "prenom": "hamza",
+      "login": "lolo",
+      "motDePasse": "1234",
+      "id_conseiller": 1
+  }
+],
+"conseillers":[
+  {
+    "id": 1,
+    "name": "rachid",
+    "password": "hamza",
+    "client": [
+      {
+        "id": 0,
+      "nom": "string",
+      "prenom": "hamza",
+      "login": "lolo",
+      "motDePasse": "1234",
+      "id_conseiller": 1
+      }
+    ]
+}
+],
+  "profile": {
+    "name": "typicode"
+  }
+}
