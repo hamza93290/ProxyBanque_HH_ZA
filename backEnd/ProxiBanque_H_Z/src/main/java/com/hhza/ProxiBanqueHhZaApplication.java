@@ -1,4 +1,4 @@
-package com.example.ProxiBanque_HH_ZA;
+package com.hhza;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
