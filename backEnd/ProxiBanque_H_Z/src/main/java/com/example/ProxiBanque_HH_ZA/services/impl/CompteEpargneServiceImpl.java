@@ -1,17 +1,18 @@
 package com.example.ProxiBanque_HH_ZA.services.impl;
 
-import com.example.ProxiBanque_HH_ZA.dtos.CompteCourantDto;
+
 import com.example.ProxiBanque_HH_ZA.dtos.CompteEpargneDto;
-import com.example.ProxiBanque_HH_ZA.entities.CompteCourant;
 import com.example.ProxiBanque_HH_ZA.entities.CompteEpargne;
 import com.example.ProxiBanque_HH_ZA.repositories.CompteEpargneRepository;
 import com.example.ProxiBanque_HH_ZA.services.CompteEpargneService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+@Service
 public class CompteEpargneServiceImpl implements CompteEpargneService {
 
     @Autowired

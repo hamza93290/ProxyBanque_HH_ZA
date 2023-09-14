@@ -1,8 +1,7 @@
 package com.example.ProxiBanque_HH_ZA.services;
 
-import com.example.ProxiBanque_HH_ZA.dtos.CompteCourantDto;
+
 import com.example.ProxiBanque_HH_ZA.dtos.CompteEpargneDto;
-import com.example.ProxiBanque_HH_ZA.entities.CompteCourant;
 import com.example.ProxiBanque_HH_ZA.entities.CompteEpargne;
 
 import java.util.List;

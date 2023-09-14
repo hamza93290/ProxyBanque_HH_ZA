@@ -1,6 +1,6 @@
 package com.example.ProxiBanque_HH_ZA.dtos;
 
-import com.example.ProxiBanque_HH_ZA.entities.Conseiller;
+
 import lombok.Getter;
 import lombok.Setter;
 

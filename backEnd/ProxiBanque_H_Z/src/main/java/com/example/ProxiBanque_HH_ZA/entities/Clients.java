@@ -1,6 +1,5 @@
 package com.example.ProxiBanque_HH_ZA.entities;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

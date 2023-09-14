@@ -1,10 +1,8 @@
 package com.example.ProxiBanque_HH_ZA.controllers;
 
-import com.example.ProxiBanque_HH_ZA.dtos.CompteCourantDto;
+
 import com.example.ProxiBanque_HH_ZA.dtos.CompteEpargneDto;
-import com.example.ProxiBanque_HH_ZA.entities.CompteCourant;
 import com.example.ProxiBanque_HH_ZA.entities.CompteEpargne;
-import com.example.ProxiBanque_HH_ZA.services.CompteCourantService;
 import com.example.ProxiBanque_HH_ZA.services.CompteEpargneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
