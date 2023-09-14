@@ -11,9 +11,10 @@ public class ClientsDto {
     private Long id;
     private String name;
     private String firstName;
-    private String adress;
-    private int zipCode;
+    private String address;
+    private Long zipCode;
     private String city;
     private String phoneNumber;
-    private Conseiller conseiller;
+    private Long id_conseiller;
+    //private Conseiller conseiller;
 }

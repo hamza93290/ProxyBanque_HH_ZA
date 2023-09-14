@@ -14,7 +14,7 @@ public class Clients {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Integer id;
+    private Long id;
     @Column(name = "lastname")
     private String lastname;
     @Column(name = "firstname")
@@ -24,7 +24,7 @@ public class Clients {
     @Column(name = "city")
     private String city;
     @Column(name = "zipcode")
-    private Integer zipcode;
+    private Long zipcode;
     @Column(name = "phonenumber")
     private String phonenumber;
 

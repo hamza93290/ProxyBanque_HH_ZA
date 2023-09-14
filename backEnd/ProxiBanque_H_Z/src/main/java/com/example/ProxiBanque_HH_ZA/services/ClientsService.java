@@ -14,11 +14,10 @@ public interface ClientsService {
 
     Clients saveClient(ClientsDto clientDto);
 
-    ClientsDto updateClient(Long id, ClientsDto clientDTO);
+    Clients updateClient(Long id, ClientsDto clientDTO);
 
     void deleteClientById(Long id);
 
-    ClientsDto createClientWithConseiller(ClientsDto client, Long conseillerId);
 
 
 }
