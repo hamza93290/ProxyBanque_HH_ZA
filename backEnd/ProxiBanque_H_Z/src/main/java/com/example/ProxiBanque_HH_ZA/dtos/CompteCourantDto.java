@@ -15,7 +15,7 @@ public class CompteCourantDto {
 
     private String accountNum;
 
-    private double balance;
+    private double solde;
 
     private LocalDate createDate;
 

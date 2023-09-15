@@ -25,7 +25,7 @@ public class CompteCourantServiceImpl implements CompteCourantService {
 
 
         CompteCourantDto compteCourantDto = new CompteCourantDto();
-        compteCourantDto.setBalance(compteCourant.getBalance());
+        compteCourantDto.setSolde(compteCourant.getSolde());
         compteCourantDto.setCreateDate(compteCourant.getCreateDate());
         compteCourantDto.setDecouvert(compteCourant.getDecouvert());
         compteCourantDto.setCarte(compteCourant.getCarte());
@@ -71,7 +71,7 @@ public class CompteCourantServiceImpl implements CompteCourantService {
 
         compteCourant.setAccountNum(accountNum);
         compteCourant.setDecouvert(1000);
-        compteCourant.setBalance(compte.getBalance());
+        compteCourant.setSolde(compte.getSolde());
         compteCourant.setCreateDate(compte.getCreateDate());
         compteCourant.setClient(compte.getClient());
         compteCourant.setCarte(compte.getCarte());
@@ -89,7 +89,7 @@ public class CompteCourantServiceImpl implements CompteCourantService {
 
             existingCompteCourant.setCarte(compte.getCarte());
             existingCompteCourant.setDecouvert(compte.getDecouvert());
-            existingCompteCourant.setBalance(compte.getBalance());
+            existingCompteCourant.setSolde(compte.getSolde());
 
             return  compteCourantRepository.save(existingCompteCourant);
 

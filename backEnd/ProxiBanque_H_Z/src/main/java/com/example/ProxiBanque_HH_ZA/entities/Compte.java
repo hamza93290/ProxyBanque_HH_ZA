@@ -20,8 +20,8 @@ public abstract class Compte {
     @Column(name = "accountNum")
     private String accountNum;
 
-    @Column(name = "balance")
-    private double balance;
+    @Column(name = "solde")
+    private double solde;
 
     @Column(name = "createDate")
     private LocalDate createDate;

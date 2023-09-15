@@ -22,7 +22,7 @@ public class CompteEpargneServiceImpl implements CompteEpargneService {
     public CompteEpargneDto toDto(CompteEpargne compteEpargne) {
 
         CompteEpargneDto compteEpargneDto = new CompteEpargneDto();
-        compteEpargneDto.setBalance(compteEpargne.getBalance());
+        compteEpargneDto.setSolde(compteEpargne.getSolde());
         compteEpargneDto.setCreateDate(compteEpargne.getCreateDate());
         compteEpargneDto.setAccountNum(compteEpargne.getAccountNum());
         compteEpargneDto.setTauxRemuneration(compteEpargne.getTauxRemuneration());
@@ -64,7 +64,7 @@ public class CompteEpargneServiceImpl implements CompteEpargneService {
         CompteEpargne compteEpargne = new CompteEpargne();
 
         compteEpargne.setAccountNum(accountNum);
-        compteEpargne.setBalance(compte.getBalance());
+        compteEpargne.setSolde(compte.getSolde());
         compteEpargne.setCreateDate(compte.getCreateDate());
         compteEpargne.setTauxRemuneration(compte.getTauxRemuneration());
         //compteEpargne.setClient(compte.getClient());
@@ -82,7 +82,7 @@ public class CompteEpargneServiceImpl implements CompteEpargneService {
             CompteEpargne existingCompteEpargne  = compteEpargneRepository.findById(id_compte).get();
 
 
-            existingCompteEpargne.setBalance(compte.getBalance());
+            existingCompteEpargne.setSolde(compte.getSolde());
             existingCompteEpargne.setTauxRemuneration(compte.getTauxRemuneration());
 
             return  compteEpargneRepository.save(existingCompteEpargne);
